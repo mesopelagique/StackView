@@ -17,6 +17,13 @@
 			"Size"
 		]
 	},
+	"macro": {
+		"classes": [
+			"StackCodeMacro",
+			"StackMacro",
+			"StackSetSpacing"
+		]
+	},
 	"test": {
 		"forms": [
 			"TestForm"

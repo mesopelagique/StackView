@@ -1,6 +1,5 @@
 
 Class constructor($conf : Object)
-	
 	This:C1470.axis:=$conf.axis
 	
 Function onInvoke($editor : Object)->$result : Object
@@ -19,11 +18,11 @@ Function onInvoke($editor : Object)->$result : Object
 				$col.push(cs:C1710.StackFormElement.new($editor.editor.currentPage.objects[$element]))
 			End for each 
 			
+			
 			// XXX find the element to put as reference for size as first in $col!!
 			// because I cannot be sure about it when grouping object?
 			
-			cs:C1710.Stack.new($col).perform(New object:C1471("axis"; This:C1470.axis))
-			
+			cs:C1710.Stack.new($col).perform(New object:C1471("axis"; This:C1470.axis; "spacing"; Num:C11($col[0].object.userInfo.spacing)))
 			// Notify to 4D the modification
 			$result:=New object:C1471("currentPage"; $editor.editor.currentPage)
 			

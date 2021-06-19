@@ -73,15 +73,18 @@
 					"sizingX": "grow",
 					"sizingY": "grow",
 					"class": "",
-					"strokeWidth": 1
+					"strokeWidth": 1,
+					"userInfo": {
+						"spacing": 20
+					}
 				},
 				"Button": {
 					"type": "button",
 					"text": "Button",
 					"top": 21,
 					"left": 204,
-					"width": 127,
-					"height": 506,
+					"width": 713,
+					"height": 85,
 					"events": [
 						"onClick"
 					],
@@ -91,10 +94,10 @@
 				},
 				"Input": {
 					"type": "input",
-					"left": 351,
-					"top": 21,
-					"width": 127,
-					"height": 506,
+					"left": 204,
+					"top": 126,
+					"width": 713,
+					"height": 85,
 					"sizingX": "grow",
 					"sizingY": "grow",
 					"class": ""
@@ -102,10 +105,10 @@
 				"Text": {
 					"type": "text",
 					"text": " ert ert ert ert ert ert ert ert",
-					"top": 21,
-					"left": 498,
-					"width": 127,
-					"height": 506,
+					"top": 231,
+					"left": 204,
+					"width": 713,
+					"height": 85,
 					"sizingX": "grow",
 					"sizingY": "grow",
 					"class": ""
@@ -142,10 +145,10 @@
 				"Button2": {
 					"type": "button",
 					"text": "Button",
-					"top": 21,
-					"left": 645,
-					"width": 127,
-					"height": 506,
+					"top": 336,
+					"left": 204,
+					"width": 713,
+					"height": 85,
 					"events": [
 						"onClick"
 					],
@@ -176,10 +179,10 @@
 				"Text1": {
 					"type": "text",
 					"text": "text default",
-					"top": 21,
-					"left": 792,
-					"width": 127,
-					"height": 506,
+					"top": 441,
+					"left": 204,
+					"width": 713,
+					"height": 85,
 					"class": ""
 				},
 				"Splitter1": {
@@ -196,7 +199,7 @@
 			}
 		}
 	],
-	"geometryStamp": 259,
+	"geometryStamp": 262,
 	"method": "method.4dm",
 	"editor": {
 		"groups": {

@@ -1,15 +1,18 @@
 {
 	"macros": {
-	  "Align stack vertically": {
-		  "class": "StackMacro",
-      "axis": "vertical"
-	  },
-    "Align stack horizontally": {
-		  "class": "StackMacro",
-      "axis": "horizontal"
-	  },
-    "Generate Stack new code": {
-		  "class": "StackCodeMacro"
-	  }
+		"stack: align vertically": {
+			"class": "StackMacro",
+			"axis": "vertical"
+		},
+		"stack: align horizontally": {
+			"class": "StackMacro",
+			"axis": "horizontal"
+		},
+		"stack: generate new code": {
+			"class": "StackCodeMacro"
+		},
+		"stack: set spacing": {
+			"class": "StackSetSpacing"
+		}
 	}
-}
+}s
