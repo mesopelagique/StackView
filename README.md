@@ -19,7 +19,7 @@ Init the stack and keep it somewhere
 ```
 > The first element must be the rectangle
 
-then in `On Load` and `On Resize` call `perfor` to move objects according to wanted options
+then in `On Load` and `On Resize` call `perform` to move objects according to wanted options
 
 ```4d
 	This.stack.perform(New object("spacing"; 20; "axis"; "vertical")) // could be horizontal
@@ -29,9 +29,9 @@ then in `On Load` and `On Resize` call `perfor` to move objects according to wan
 
 to help there is two macros
 
-### Move the element to be in stack
+### Apply stack alignment to selected group
 
-you could in macro menu apply horizontal or vertical stack if you select the group
+you could in macro menu apply horizontal or vertical stack alignment 
 
 unfortunately you could not select a `spacing` like that
 
