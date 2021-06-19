@@ -1,0 +1,30 @@
+[
+	{
+		"type": 66,
+		"formula": "((This:C1470.members.length-1)*$spacing/This:C1470.members.length)"
+	},
+	{
+		"type": 66,
+		"formula": "$size.width/This:C1470.members.length"
+	},
+	{
+		"type": 66,
+		"formula": "(193*3)+(10*2)"
+	},
+	{
+		"type": 66,
+		"formula": "$exectedElementSize"
+	},
+	{
+		"type": 66,
+		"formula": "$size"
+	},
+	{
+		"type": 66,
+		"formula": "$coordinates"
+	},
+	{
+		"type": 66,
+		"formula": "This:C1470.members"
+	}
+]

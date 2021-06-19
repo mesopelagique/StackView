@@ -1,0 +1,15 @@
+{
+	"macros": {
+	  "Align stack vertically": {
+		  "class": "StackMacro",
+      "axis": "vertical"
+	  },
+    "Align stack horizontally": {
+		  "class": "StackMacro",
+      "axis": "horizontal"
+	  },
+    "Generate Stack new code": {
+		  "class": "StackCodeMacro"
+	  }
+	}
+}

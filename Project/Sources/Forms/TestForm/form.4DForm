@@ -1,0 +1,197 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 21,
+					"left": 21,
+					"width": 154,
+					"height": 151,
+					"fill": "transparent",
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"visibility": "hidden",
+					"strokeDashArray": [
+						3,
+						5
+					],
+					"stroke": "#ff6347"
+				},
+				"Rectangle": {
+					"type": "rectangle",
+					"top": 21,
+					"left": 204,
+					"width": 713,
+					"height": 466,
+					"visibility": "hidden",
+					"fill": "transparent",
+					"strokeDashArray": [
+						1,
+						1,
+						1,
+						1,
+						1,
+						1
+					],
+					"stroke": "#da70d6",
+					"sizingX": "grow",
+					"sizingY": "grow"
+				},
+				"Button": {
+					"type": "button",
+					"text": "Button",
+					"top": 21,
+					"left": 204,
+					"width": 713,
+					"height": 116,
+					"events": [
+						"onClick"
+					],
+					"sizingX": "grow",
+					"sizingY": "grow"
+				},
+				"Input": {
+					"type": "input",
+					"left": 204,
+					"top": 137,
+					"width": 713,
+					"height": 116,
+					"sizingX": "grow",
+					"sizingY": "grow"
+				},
+				"Text": {
+					"type": "text",
+					"text": " ert ert ert ert ert ert ert ert",
+					"top": 254,
+					"left": 204,
+					"width": 713,
+					"height": 116,
+					"sizingX": "grow",
+					"sizingY": "grow"
+				},
+				"Button1": {
+					"type": "button",
+					"text": "Toggle Axis",
+					"top": 21,
+					"left": 21,
+					"width": 154,
+					"height": 51,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button1.4dm"
+				},
+				"Input1": {
+					"type": "input",
+					"left": 21,
+					"top": 71,
+					"width": 154,
+					"height": 51,
+					"dataSource": "Form:C1466.instance.spacing",
+					"dataSourceTypeHint": "integer",
+					"events": [
+						"onValidate",
+						"onDataChange"
+					],
+					"method": "ObjectMethods/Input1.4dm",
+					"entryFilter": "&\"0-9;.;-\"",
+					"multiline": "no",
+					"min": 0
+				},
+				"Button2": {
+					"type": "button",
+					"text": "Button",
+					"top": 370,
+					"left": 204,
+					"width": 713,
+					"height": 116,
+					"events": [
+						"onClick"
+					]
+				},
+				"Button3": {
+					"type": "button",
+					"text": "Shuffle",
+					"top": 121,
+					"left": 21,
+					"width": 154,
+					"height": 51,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button3.4dm"
+				},
+				"Splitter": {
+					"type": "splitter",
+					"left": 188,
+					"top": 7,
+					"width": 7,
+					"height": 511,
+					"sizingY": "grow",
+					"splitterMode": "move",
+					"borderStyle": "system"
+				}
+			}
+		}
+	],
+	"geometryStamp": 159,
+	"method": "method.4dm",
+	"editor": {
+		"groups": {
+			"Group": [
+				"Rectangle",
+				"Button",
+				"Input",
+				"Text",
+				"Button2"
+			],
+			"Group1": [
+				"Rectangle1",
+				"Button1",
+				"Input1",
+				"Button3"
+			]
+		},
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	}
+}
