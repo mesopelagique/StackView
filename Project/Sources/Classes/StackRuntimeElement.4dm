@@ -16,8 +16,4 @@ Function setCoordinates($coordinates : Object)
 Function getCoordinates()->$coordinates : Object
 	var $bottom; $left; $right; $top : Integer
 	OBJECT GET COORDINATES:C663(*; This:C1470.name; $left; $top; $right; $bottom)
-	$coordinates:=New object:C1471(\
-		"left"; $left; \
-		"top"; $top; \
-		"right"; $right; \
-		"bottom"; $bottom)
+	$coordinates:=cs:C1710.Coordinates.new($left; $top; $right; $bottom)

@@ -64,7 +64,7 @@ Function getCoordinates
 Function perform($options : Object)
 	var $coordinates; $size : Object
 	$coordinates:=This:C1470.getCoordinates()
-	$size:=New object:C1471("height"; $coordinates.bottom-$coordinates.top; "width"; $coordinates.right-$coordinates.left)
+	$size:=$coordinates.size()
 	
 	If ($options.axis=Null:C1517)
 		$options.axis:="vertical"
@@ -78,9 +78,9 @@ Function perform($options : Object)
 	// : ($options.alignment = "fill")
 	Case of 
 		: ($options.axis="horizontal")
-			$exectedElementSize:=New object:C1471("height"; $size.height; "width"; $size.width/This:C1470.elements.length-((This:C1470.elements.length-1)*$options.spacing/This:C1470.elements.length))
+			$exectedElementSize:=cs:C1710.Size.new($size.height; $size.width/This:C1470.elements.length-((This:C1470.elements.length-1)*$options.spacing/This:C1470.elements.length))
 		: ($options.axis="vertical")
-			$exectedElementSize:=New object:C1471("height"; $size.height/This:C1470.elements.length-((This:C1470.elements.length-1)*$options.spacing/This:C1470.elements.length); "width"; $size.width)
+			$exectedElementSize:=cs:C1710.Size.new($size.height/This:C1470.elements.length-((This:C1470.elements.length-1)*$options.spacing/This:C1470.elements.length); $size.width)
 		Else 
 			ASSERT:C1129(False:C215; "Unknown axis "+$options.axis)
 	End case 
@@ -97,19 +97,19 @@ Function perform($options : Object)
 		Case of 
 			: ($options.axis="horizontal")
 				
-				$newCoordinates:=New object:C1471(\
-					"top"; $coordinates.top; \
-					"bottom"; $coordinates.bottom; \
-					"left"; $coordinates.left+($pos*$exectedElementSize.width)+($options.spacing*$pos); \
-					"right"; $coordinates.left+(($pos+1)*$exectedElementSize.width)+($options.spacing*$pos))
+				$newCoordinates:=cs:C1710.Coordinates.new(\
+					$coordinates.left+($pos*$exectedElementSize.width)+($options.spacing*$pos); \
+					$coordinates.top; \
+					$coordinates.left+(($pos+1)*$exectedElementSize.width)+($options.spacing*$pos); \
+					$coordinates.bottom)
 				
 			: ($options.axis="vertical")
 				
-				$newCoordinates:=New object:C1471(\
-					"top"; $coordinates.top+($pos*$exectedElementSize.height)+($options.spacing*$pos); \
-					"bottom"; $coordinates.top+(($pos+1)*$exectedElementSize.height)+($options.spacing*$pos); \
-					"left"; $coordinates.left; \
-					"right"; $coordinates.left+$size.width/*$coordinates.right*/)
+				$newCoordinates:=cs:C1710.Coordinates.new(\
+					$coordinates.left; \
+					$coordinates.top+($pos*$exectedElementSize.height)+($options.spacing*$pos); \
+					$coordinates.left+$size.width/*$coordinates.right*/; \
+					$coordinates.top+(($pos+1)*$exectedElementSize.height)+($options.spacing*$pos))
 				
 		End case 
 		

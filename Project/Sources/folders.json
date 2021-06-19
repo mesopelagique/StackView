@@ -6,14 +6,17 @@
 			"(Default Forms)",
 			"(Default Project Methods)",
 			"(Default Tables)"
-		],
-		"classes": [
-			"Class6"
 		]
 	},
 	"(Default Forms)": {},
 	"(Default Project Methods)": {},
 	"(Default Tables)": {},
+	"geometry": {
+		"classes": [
+			"Coordinates",
+			"Size"
+		]
+	},
 	"test": {
 		"forms": [
 			"TestForm"

@@ -58,7 +58,7 @@
 					"top": 21,
 					"left": 204,
 					"width": 713,
-					"height": 466,
+					"height": 506,
 					"visibility": "hidden",
 					"fill": "transparent",
 					"strokeDashArray": [
@@ -71,39 +71,44 @@
 					],
 					"stroke": "#da70d6",
 					"sizingX": "grow",
-					"sizingY": "grow"
+					"sizingY": "grow",
+					"class": "",
+					"strokeWidth": 1
 				},
 				"Button": {
 					"type": "button",
 					"text": "Button",
 					"top": 21,
 					"left": 204,
-					"width": 713,
-					"height": 116,
+					"width": 127,
+					"height": 506,
 					"events": [
 						"onClick"
 					],
 					"sizingX": "grow",
-					"sizingY": "grow"
+					"sizingY": "grow",
+					"class": ""
 				},
 				"Input": {
 					"type": "input",
-					"left": 204,
-					"top": 137,
-					"width": 713,
-					"height": 116,
+					"left": 351,
+					"top": 21,
+					"width": 127,
+					"height": 506,
 					"sizingX": "grow",
-					"sizingY": "grow"
+					"sizingY": "grow",
+					"class": ""
 				},
 				"Text": {
 					"type": "text",
 					"text": " ert ert ert ert ert ert ert ert",
-					"top": 254,
-					"left": 204,
-					"width": 713,
-					"height": 116,
+					"top": 21,
+					"left": 498,
+					"width": 127,
+					"height": 506,
 					"sizingX": "grow",
-					"sizingY": "grow"
+					"sizingY": "grow",
+					"class": ""
 				},
 				"Button1": {
 					"type": "button",
@@ -137,13 +142,14 @@
 				"Button2": {
 					"type": "button",
 					"text": "Button",
-					"top": 370,
-					"left": 204,
-					"width": 713,
-					"height": 116,
+					"top": 21,
+					"left": 645,
+					"width": 127,
+					"height": 506,
 					"events": [
 						"onClick"
-					]
+					],
+					"class": ""
 				},
 				"Button3": {
 					"type": "button",
@@ -159,18 +165,38 @@
 				},
 				"Splitter": {
 					"type": "splitter",
-					"left": 188,
-					"top": 7,
-					"width": 7,
-					"height": 511,
+					"left": 177,
+					"top": 21,
+					"width": 21,
+					"height": 600,
 					"sizingY": "grow",
 					"splitterMode": "move",
+					"borderStyle": "system"
+				},
+				"Text1": {
+					"type": "text",
+					"text": "text default",
+					"top": 21,
+					"left": 792,
+					"width": 127,
+					"height": 506,
+					"class": ""
+				},
+				"Splitter1": {
+					"type": "splitter",
+					"left": 21,
+					"top": 239,
+					"width": 154,
+					"height": 20,
+					"splitterMode": "resize",
+					"sizingY": "fixed",
+					"sizingX": "grow",
 					"borderStyle": "system"
 				}
 			}
 		}
 	],
-	"geometryStamp": 159,
+	"geometryStamp": 259,
 	"method": "method.4dm",
 	"editor": {
 		"groups": {
@@ -179,7 +205,8 @@
 				"Button",
 				"Input",
 				"Text",
-				"Button2"
+				"Button2",
+				"Text1"
 			],
 			"Group1": [
 				"Rectangle1",
