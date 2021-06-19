@@ -29,12 +29,16 @@ then in `On Load` and `On Resize` call `perform` to move objects according to wa
 
 to help there is two macros
 
-### Apply stack alignment to selected group
+### stack: align vertically & horizontally
 
-you could in macro menu apply horizontal or vertical stack alignment 
+you could in macro menu apply horizontal or vertical stack alignment to selected group
 
-unfortunately you could not select a `spacing` like that
+#### stack: set spacing
 
-### Generate code
+Before applying alignment you could register the spacing.
+
+> this will register custom json key in Form in first element of group, the rectangle
+
+### stack: generate new code
 
 it generate the code to init a `cs.Stack` with all selected group elements.
