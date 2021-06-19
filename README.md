@@ -2,6 +2,8 @@
 
  Stack layout experimentation with form objects
 
+![Screencast](Screencast.gif)
+
 ## In form editor
 
 Create a rectangle for the stack, then group it with some form objects.
