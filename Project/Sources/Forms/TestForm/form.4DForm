@@ -37,21 +37,24 @@
 		},
 		{
 			"objects": {
-				"Rectangle1": {
-					"type": "rectangle",
-					"top": 21,
-					"left": 21,
-					"width": 154,
-					"height": 151,
-					"fill": "transparent",
-					"sizingX": "grow",
-					"sizingY": "grow",
-					"visibility": "hidden",
-					"strokeDashArray": [
-						3,
-						5
-					],
-					"stroke": "#ff6347"
+				"Group Box": {
+					"type": "groupBox",
+					"text": "Configure",
+					"top": 28,
+					"left": 15,
+					"width": 160,
+					"height": 174,
+					"userInfo": {
+						"spacing": 10
+					}
+				},
+				"Text2": {
+					"type": "text",
+					"text": "",
+					"top": 28,
+					"left": 15,
+					"width": 160,
+					"height": 36
 				},
 				"Rectangle": {
 					"type": "rectangle",
@@ -116,10 +119,10 @@
 				"Button1": {
 					"type": "button",
 					"text": "Toggle Axis",
-					"top": 21,
-					"left": 21,
-					"width": 154,
-					"height": 51,
+					"top": 74,
+					"left": 15,
+					"width": 160,
+					"height": 36,
 					"events": [
 						"onClick"
 					],
@@ -127,10 +130,10 @@
 				},
 				"Input1": {
 					"type": "input",
-					"left": 21,
-					"top": 71,
-					"width": 154,
-					"height": 51,
+					"left": 15,
+					"top": 120,
+					"width": 160,
+					"height": 36,
 					"dataSource": "Form:C1466.instance.spacing",
 					"dataSourceTypeHint": "integer",
 					"events": [
@@ -157,10 +160,10 @@
 				"Button3": {
 					"type": "button",
 					"text": "Shuffle",
-					"top": 121,
-					"left": 21,
-					"width": 154,
-					"height": 51,
+					"top": 166,
+					"left": 15,
+					"width": 160,
+					"height": 36,
 					"events": [
 						"onClick"
 					],
@@ -199,7 +202,7 @@
 			}
 		}
 	],
-	"geometryStamp": 262,
+	"geometryStamp": 286,
 	"method": "method.4dm",
 	"editor": {
 		"groups": {
@@ -212,7 +215,8 @@
 				"Text1"
 			],
 			"Group1": [
-				"Rectangle1",
+				"Group Box",
+				"Text2",
 				"Button1",
 				"Input1",
 				"Button3"
