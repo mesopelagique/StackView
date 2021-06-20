@@ -190,10 +190,10 @@
 				},
 				"Splitter1": {
 					"type": "splitter",
-					"left": 21,
-					"top": 239,
-					"width": 154,
-					"height": 20,
+					"left": 15,
+					"top": 231,
+					"width": 160,
+					"height": 26,
 					"splitterMode": "resize",
 					"sizingY": "fixed",
 					"sizingX": "grow",
@@ -202,7 +202,7 @@
 			}
 		}
 	],
-	"geometryStamp": 286,
+	"geometryStamp": 288,
 	"method": "method.4dm",
 	"editor": {
 		"groups": {
