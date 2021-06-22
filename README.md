@@ -1,6 +1,6 @@
 # StackView
 
- Stack layout experimentation with form objects
+ Stack layout experimentation with form objects inpired by [UIStackView](https://developer.apple.com/documentation/uikit/uistackview)
 
 ![Screencast](Screencast.gif)
 
