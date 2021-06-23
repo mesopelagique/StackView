@@ -61,6 +61,9 @@ Function getCoordinates
 	var $0 : Object
 	$0:=This:C1470.background.getCoordinates()
 	
+Function setCoordinates($coordinates : Object)
+	This:C1470.background.setCoordinates($coordinates)
+	
 Function perform($options : Object)
 	var $coordinates; $size : Object
 	$coordinates:=This:C1470.getCoordinates()

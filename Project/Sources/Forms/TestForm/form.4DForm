@@ -97,10 +97,10 @@
 				},
 				"Input": {
 					"type": "input",
-					"left": 204,
+					"left": 206,
 					"top": 126,
-					"width": 713,
-					"height": 85,
+					"width": 709,
+					"height": 81,
 					"sizingX": "grow",
 					"sizingY": "grow",
 					"class": ""
@@ -190,19 +190,117 @@
 				},
 				"Splitter1": {
 					"type": "splitter",
-					"left": 15,
-					"top": 231,
+					"left": 33,
+					"top": 251,
 					"width": 160,
 					"height": 26,
 					"splitterMode": "resize",
 					"sizingY": "fixed",
 					"sizingX": "grow",
 					"borderStyle": "system"
+				},
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 562,
+					"left": 206,
+					"width": 379,
+					"height": 409,
+					"visibility": "hidden",
+					"fill": "transparent",
+					"strokeDashArray": [
+						1,
+						1,
+						1,
+						1,
+						1,
+						1
+					],
+					"stroke": "#da70d6",
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"class": "",
+					"strokeWidth": 1,
+					"userInfo": {
+						"spacing": 20
+					}
+				},
+				"Button4": {
+					"type": "button",
+					"text": "Button",
+					"top": 562,
+					"left": 206,
+					"width": 379,
+					"height": 66,
+					"events": [
+						"onClick"
+					],
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"class": ""
+				},
+				"Input2": {
+					"type": "input",
+					"left": 206,
+					"top": 648,
+					"width": 379,
+					"height": 66,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"class": ""
+				},
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 798,
+					"left": 222,
+					"width": 339,
+					"height": 111,
+					"visibility": "hidden",
+					"fill": "transparent",
+					"strokeDashArray": [
+						1,
+						1,
+						1,
+						1,
+						1,
+						1
+					],
+					"stroke": "#da70d6",
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"class": "",
+					"strokeWidth": 1,
+					"userInfo": {
+						"spacing": 20
+					}
+				},
+				"Button6": {
+					"type": "button",
+					"text": "Button",
+					"top": 798,
+					"left": 222,
+					"width": 161,
+					"height": 111,
+					"events": [
+						"onClick"
+					],
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"class": ""
+				},
+				"Input3": {
+					"type": "input",
+					"left": 400,
+					"top": 798,
+					"width": 161,
+					"height": 111,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"class": ""
 				}
 			}
 		}
 	],
-	"geometryStamp": 288,
+	"geometryStamp": 329,
 	"method": "method.4dm",
 	"editor": {
 		"groups": {
@@ -220,6 +318,16 @@
 				"Button1",
 				"Input1",
 				"Button3"
+			],
+			"Group2": [
+				"Rectangle1",
+				"Button4",
+				"Input2"
+			],
+			"Group3": [
+				"Rectangle2",
+				"Button6",
+				"Input3"
 			]
 		},
 		"activeView": "View 1",
