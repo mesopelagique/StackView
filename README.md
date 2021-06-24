@@ -29,6 +29,10 @@ then in `On Load` and `On Resize` call `perform` to move objects according to wa
 
 to help there is some macros
 
+### stack: create
+
+select some elements then launch the macro, it will create for you the group and the transparent background rectangle
+
 ### stack: align vertically & horizontally
 
 you could in form macro menu apply horizontal or vertical stack alignment to the selected group
