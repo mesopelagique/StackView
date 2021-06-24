@@ -20,11 +20,15 @@
 	"macro": {
 		"classes": [
 			"StackCodeMacro",
+			"StackCreateMacro",
 			"StackMacro",
 			"StackSetSpacing"
 		]
 	},
 	"test": {
+		"methods": [
+			"writeMacroFile"
+		],
 		"forms": [
 			"TestForm"
 		],

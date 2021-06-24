@@ -21,8 +21,12 @@ Function onInvoke($editor : Object)->$result : Object
 			
 			// XXX find the element to put as reference for size as first in $col!!
 			// because I cannot be sure about it when grouping object?
-			
-			cs:C1710.Stack.new($col).perform(New object:C1471("axis"; This:C1470.axis; "spacing"; Num:C11($col[0].object.userInfo.spacing)))
+			var $spacing : Integer
+			$spacing:=0
+			If ($col[0].object.userInfo#Null:C1517)
+				$spacing:=Num:C11($col[0].object.userInfo.spacing)
+			End if 
+			cs:C1710.Stack.new($col).perform(New object:C1471("axis"; This:C1470.axis; "spacing"; $spacing))
 			// Notify to 4D the modification
 			$result:=New object:C1471("currentPage"; $editor.editor.currentPage)
 			

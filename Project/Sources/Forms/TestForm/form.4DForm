@@ -43,10 +43,7 @@
 					"top": 28,
 					"left": 15,
 					"width": 160,
-					"height": 174,
-					"userInfo": {
-						"spacing": 10
-					}
+					"height": 174
 				},
 				"Text2": {
 					"type": "text",
@@ -58,8 +55,8 @@
 				},
 				"Rectangle": {
 					"type": "rectangle",
-					"top": 21,
-					"left": 204,
+					"top": 43,
+					"left": 201,
 					"width": 713,
 					"height": 506,
 					"visibility": "hidden",
@@ -76,16 +73,13 @@
 					"sizingX": "grow",
 					"sizingY": "grow",
 					"class": "",
-					"strokeWidth": 1,
-					"userInfo": {
-						"spacing": 20
-					}
+					"strokeWidth": 1
 				},
 				"Button": {
 					"type": "button",
 					"text": "Button",
-					"top": 21,
-					"left": 204,
+					"top": 43,
+					"left": 201,
 					"width": 713,
 					"height": 85,
 					"events": [
@@ -97,8 +91,8 @@
 				},
 				"Input": {
 					"type": "input",
-					"left": 206,
-					"top": 126,
+					"left": 203,
+					"top": 148,
 					"width": 709,
 					"height": 81,
 					"sizingX": "grow",
@@ -108,8 +102,8 @@
 				"Text": {
 					"type": "text",
 					"text": " ert ert ert ert ert ert ert ert",
-					"top": 231,
-					"left": 204,
+					"top": 253,
+					"left": 201,
 					"width": 713,
 					"height": 85,
 					"sizingX": "grow",
@@ -148,8 +142,8 @@
 				"Button2": {
 					"type": "button",
 					"text": "Button",
-					"top": 336,
-					"left": 204,
+					"top": 358,
+					"left": 201,
 					"width": 713,
 					"height": 85,
 					"events": [
@@ -182,8 +176,8 @@
 				"Text1": {
 					"type": "text",
 					"text": "text default",
-					"top": 441,
-					"left": 204,
+					"top": 463,
+					"left": 201,
 					"width": 713,
 					"height": 85,
 					"class": ""
@@ -219,10 +213,7 @@
 					"sizingX": "grow",
 					"sizingY": "grow",
 					"class": "",
-					"strokeWidth": 1,
-					"userInfo": {
-						"spacing": 20
-					}
+					"strokeWidth": 1
 				},
 				"Button4": {
 					"type": "button",
@@ -268,10 +259,7 @@
 					"sizingX": "grow",
 					"sizingY": "grow",
 					"class": "",
-					"strokeWidth": 1,
-					"userInfo": {
-						"spacing": 20
-					}
+					"strokeWidth": 1
 				},
 				"Button6": {
 					"type": "button",
@@ -300,7 +288,7 @@
 			}
 		}
 	],
-	"geometryStamp": 329,
+	"geometryStamp": 478,
 	"method": "method.4dm",
 	"editor": {
 		"groups": {

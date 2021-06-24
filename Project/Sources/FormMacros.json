@@ -1,5 +1,8 @@
 {
 	"macros": {
+		"stack: create": {
+			"class": "StackCreateMacro"
+		},
 		"stack: align vertically": {
 			"class": "StackMacro",
 			"axis": "vertical"
@@ -15,4 +18,4 @@
 			"class": "StackSetSpacing"
 		}
 	}
-}s
+}
