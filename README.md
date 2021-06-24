@@ -33,9 +33,13 @@ to help there is some macros
 
 select some elements then launch the macro, it will create for you the group and the transparent background rectangle
 
+![CreateMacro](CreateMacro.gif)
+
 ### stack: align vertically & horizontally
 
 you could in form macro menu apply horizontal or vertical stack alignment to the selected group
+
+![AlignMacro](AlignMacro.gif)
 
 #### stack: set spacing
 
