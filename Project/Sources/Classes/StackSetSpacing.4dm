@@ -16,7 +16,10 @@ Function onInvoke($editor : Object)->$result : Object
 			If ($groupElements.length>0)
 				var $spacing : Text
 				$spacing:=Request:C163("Enter spacing")
-				$editor.editor.currentPage.objects[$groupElements[0]].userInfo:=New object:C1471("spacing"; Num:C11($spacing))
+				If ($editor.editor.currentPage.objects[$groupElements[0]].userInfo=Null:C1517)
+					$editor.editor.currentPage.objects[$groupElements[0]].userInfo:=New object:C1471
+				End if 
+				$editor.editor.currentPage.objects[$groupElements[0]].userInfo.spacing:=Num:C11($spacing)
 				
 				// Notify to 4D the modification
 				$result:=New object:C1471("currentPage"; $editor.editor.currentPage)

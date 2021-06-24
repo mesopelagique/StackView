@@ -259,14 +259,18 @@
 					"sizingX": "grow",
 					"sizingY": "grow",
 					"class": "",
-					"strokeWidth": 1
+					"strokeWidth": 1,
+					"userInfo": {
+						"spacing": 10,
+						"axis": "horizontal"
+					}
 				},
 				"Button6": {
 					"type": "button",
 					"text": "Button",
 					"top": 798,
 					"left": 222,
-					"width": 161,
+					"width": 164,
 					"height": 111,
 					"events": [
 						"onClick"
@@ -277,9 +281,9 @@
 				},
 				"Input3": {
 					"type": "input",
-					"left": 400,
+					"left": 396,
 					"top": 798,
-					"width": 161,
+					"width": 164,
 					"height": 111,
 					"sizingX": "grow",
 					"sizingY": "grow",
@@ -288,7 +292,7 @@
 			}
 		}
 	],
-	"geometryStamp": 478,
+	"geometryStamp": 479,
 	"method": "method.4dm",
 	"editor": {
 		"groups": {
