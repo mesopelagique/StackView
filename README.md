@@ -49,7 +49,7 @@ Before applying alignment you could register the spacing.
 
 ### stack: generate new code
 
-it generate the code to init a `cs.Stack` with all selected group elements.
+It generate the code to init a `cs.Stack` with all selected group children elements and the perform with registered parameters.
 
 ## TODO
 
