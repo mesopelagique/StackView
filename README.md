@@ -1,5 +1,11 @@
 # StackView
 
+[![language][code-shield]][code-url]
+[![language-top][code-top]][code-url]
+![code-size][code-size]
+[![license][license-shield]][license-url]
+[![discord][discord-shield]][discord-url]
+
  Stack layout experimentation with form objects inpired by [UIStackView](https://developer.apple.com/documentation/uikit/uistackview)
 
 ![Screencast](Screencast.gif)
@@ -55,3 +61,18 @@ It generate the code to init a `cs.Stack` with all selected group children eleme
 
 - [ ] some inner padding conf variable
 - [ ] other distributions than `fill` one, for instance align the objects to the left instead of taking the full width
+
+## Other components
+
+[<img src="https://mesopelagique.github.io/quatred.png" alt="mesopelagique"/>](https://mesopelagique.github.io/)
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[code-shield]: https://img.shields.io/static/v1?label=language&message=4d&color=blue
+[code-top]: https://img.shields.io/github/languages/top/mesopelagique/StackView.svg
+[code-size]: https://img.shields.io/github/languages/code-size/mesopelagique/StackView.svg
+[code-url]: https://developer.4d.com/
+[license-shield]: https://img.shields.io/github/license/mesopelagique/StackView
+[license-url]: LICENSE
+[discord-shield]: https://img.shields.io/badge/chat-discord-7289DA?logo=discord&style=flat
+[discord-url]: https://discord.gg/dVTqZHr
